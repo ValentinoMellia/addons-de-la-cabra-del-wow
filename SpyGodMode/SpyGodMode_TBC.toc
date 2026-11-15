@@ -1,0 +1,32 @@
+## Interface: 20505, 20506
+## Title: Spy - God Mode [TBC]
+## Notes: PvP enemy detection by GodModeTeam. Client-specific build.
+## Author: GodModeTeam
+## Version: 1.2.16
+## SavedVariables: SpyGodModeDB
+## SavedVariablesPerCharacter: SpyGodModeCharDB
+## AllowLoadGameType: tbc
+
+Clients\TBC\Core\ClientGuard.lua
+Clients\TBC\Core\Locale.lua
+Clients\TBC\Core\Init.lua
+Clients\TBC\Core\Compat.lua
+Clients\TBC\Core\Defaults.lua
+Clients\TBC\Core\Helpers.lua
+Clients\TBC\Data\SpellData.lua
+Clients\TBC\Engine\Roster.lua
+Clients\TBC\Engine\Scanner.lua
+Clients\TBC\Engine\Combat.lua
+Clients\TBC\Engine\Alerts.lua
+Clients\TBC\Engine\Intelligence.lua
+Clients\TBC\Engine\Comm.lua
+Clients\TBC\Engine\DataTools.lua
+Clients\TBC\Engine\SpyImport.lua
+Clients\TBC\Interface\Skin.lua
+Clients\TBC\Interface\KosDialogs.lua
+Clients\TBC\Interface\Rows.lua
+Clients\TBC\Interface\Statistics.lua
+Clients\TBC\Interface\MainFrame.lua
+Clients\TBC\Interface\AlertFrame.lua
+Clients\TBC\Interface\Options.lua
+Clients\TBC\Core\Commands.lua

@@ -1,0 +1,9 @@
+<Ui>
+    <Button name="OGMActionAuraOverlayTemplate" virtual="true">
+        <Layers>
+            <Layer level="OVERLAY">
+                <FontString parentKey="durationText" inherits="NumberFontNormal" />
+            </Layer>
+        </Layers>
+    </Button>
+</Ui>

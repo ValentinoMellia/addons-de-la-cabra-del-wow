@@ -1,0 +1,65 @@
+## Interface: 120000, 120001, 120005, 120007, 120100, 120105, 120106, 120107
+## Title: OmniCC GODMODE
+## Notes: Advanced cooldown text and aura controls for Midnight / Forever
+## Author: GodModeTeam; based on OmniCC by Tuller
+## Version: 1.4.8
+## SavedVariables: OmniCC_GODMODE_ShowGameMenuButton, OmniCC_GODMODE_MidnightComboDB, OmniCC_GODMODE_ForeverComboDB, OmniCC_GODMODEDB, OmniCC_GODMODE_MidnightNameplatesDB, OmniCC_GODMODE_NPEnabled, OmniCC_GODMODE_NPScale, OmniCC_GODMODE_NPQuickSizeLevel, OmniCC_GODMODE_NPX, OmniCC_GODMODE_NPY, OmniCC_GODMODE_NPAnchorShown, OmniCC_GODMODE_NPQuickPoint, OmniCC_GODMODE_NPQuickX, OmniCC_GODMODE_NPQuickY, OmniCC_GODMODE_MidnightPlayerCCDB, OmniCC_GODMODE_MidnightTargetPortraitDB, OmniCC_GODMODE_MidnightSelfCooldownsDB, OmniCC_GODMODE_MidnightActionAuraTimersDB, OmniCC_GODMODE_ForeverDB, OmniCC_GODMODE_ForeverNameplatesDB, OmniCC_GODMODE_ForeverNPEnabled, OmniCC_GODMODE_ForeverNPScale, OmniCC_GODMODE_ForeverNPQuickSizeLevel, OmniCC_GODMODE_ForeverNPX, OmniCC_GODMODE_ForeverNPY, OmniCC_GODMODE_ForeverNPAnchorShown, OmniCC_GODMODE_ForeverNPQuickPoint, OmniCC_GODMODE_ForeverNPQuickX, OmniCC_GODMODE_ForeverNPQuickY, OmniCC_GODMODE_ForeverPlayerCCDB, OmniCC_GODMODE_ForeverTargetPortraitDB, OmniCC_GODMODE_ForeverSelfCooldownsDB, OmniCC_GODMODE_ForeverAuraQuickDB, OmniCC_GODMODE_ForeverMinimapDB, OmniCC_GODMODE_MidnightEnemyCDDB, OmniCC_GODMODE_ForeverEnemyCDDB, OmniCC_GODMODE_CooldownsOnly, OmniCC_GODMODE_MidnightCooldownModeDB, OmniCC_GODMODE_ForeverNPCountdownTextSize, OmniCC_GODMODE_ForeverNPShowAllDebuffs, OmniCC_GODMODE_ForeverNPTargetOnly, OmniCC_GODMODE_ForeverNPFriendlyHots, OmniCC_GODMODE_ForeverNPFriendlyBuffs, OmniCC_GODMODE_ForeverNPFriendlyDebuffs
+## SavedVariablesPerCharacter: OmniCC_GODMODE_MidnightNameplatesCharDB, OmniCC_GODMODE_ForeverNameplatesCharDB
+## LoadSavedVariablesFirst: 1
+## IconTexture: Interface/Icons/inv_misc_pocketwatch_02
+## Category: Combat
+
+midnight_cooldowns_only_bootstrap.lua
+godmode_duration_binding.lua
+godmode_combo_points.lua
+godmode_enemy_cooldowns.lua
+
+# Forever branch. Every Lua file hard-exits unless interface == 16001.
+forever\engine\embeds.xml
+forever\engine\api.lua
+forever\engine\utils.lua
+forever\engine\rules.lua
+forever\engine\themer.lua
+forever\engine\main.lua
+forever\forever_threatplates_bridge.lua
+forever\forever_betterblizzplates_bridge.lua
+forever\forever_compatibility.lua
+forever\forever_aura_text_controls.lua
+forever\forever_spell_data.lua
+forever\forever_nameplate_auras.lua
+forever\forever_totem_icons.lua
+forever\forever_player_cc_alert.lua
+forever\forever_self_cooldowns.lua
+forever\forever_player_frame_auras.lua
+forever\forever_target_portrait_effects.lua
+quick_controls_localization.lua
+forever\forever_minimap_quick_menu.lua
+forever\minimap_button.lua
+forever\forever_target_native_auras.lua
+forever\forever_focus_native_auras.lua
+
+# Midnight branch. Every Lua file hard-exits on interface 16001.
+midnight_engine\embeds.xml
+midnight_engine\api.lua
+midnight_engine\utils.lua
+midnight_engine\rules.lua
+midnight_engine\themer.lua
+midnight_engine\main.lua
+midnight_threatplates_bridge.lua
+midnight_betterblizzplates_bridge.lua
+midnight_compatibility.lua
+midnight_aura_text_controls.lua
+midnight_spell_data.lua
+midnight_nameplate_auras.lua
+midnight_totem_icons.lua
+midnight_player_cc_alert.lua
+player_hot_tracker.lua
+midnight_self_cooldowns.lua
+midnight_player_frame_auras.lua
+midnight_action_aura_overlay.xml
+midnight_action_aura_timers.lua
+midnight_target_portrait_effects.lua
+midnight_minimap_quick_menu.lua
+minimap_button.lua
+midnight_target_aura_timers.lua
+midnight_focus_native_auras.lua

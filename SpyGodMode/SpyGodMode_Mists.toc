@@ -1,0 +1,32 @@
+## Interface: 50503, 50504
+## Title: Spy - God Mode [MoP]
+## Notes: PvP enemy detection by GodModeTeam. Client-specific build.
+## Author: GodModeTeam
+## Version: 1.2.16
+## SavedVariables: SpyGodModeDB
+## SavedVariablesPerCharacter: SpyGodModeCharDB
+## AllowLoadGameType: mists
+
+Clients\MoP\Core\ClientGuard.lua
+Clients\MoP\Core\Locale.lua
+Clients\MoP\Core\Init.lua
+Clients\MoP\Core\Compat.lua
+Clients\MoP\Core\Defaults.lua
+Clients\MoP\Core\Helpers.lua
+Clients\MoP\Data\SpellData.lua
+Clients\MoP\Engine\Roster.lua
+Clients\MoP\Engine\Scanner.lua
+Clients\MoP\Engine\Combat.lua
+Clients\MoP\Engine\Alerts.lua
+Clients\MoP\Engine\Intelligence.lua
+Clients\MoP\Engine\Comm.lua
+Clients\MoP\Engine\DataTools.lua
+Clients\MoP\Engine\SpyImport.lua
+Clients\MoP\Interface\Skin.lua
+Clients\MoP\Interface\KosDialogs.lua
+Clients\MoP\Interface\Rows.lua
+Clients\MoP\Interface\Statistics.lua
+Clients\MoP\Interface\MainFrame.lua
+Clients\MoP\Interface\AlertFrame.lua
+Clients\MoP\Interface\Options.lua
+Clients\MoP\Core\Commands.lua

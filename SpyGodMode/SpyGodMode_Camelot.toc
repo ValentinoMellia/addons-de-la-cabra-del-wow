@@ -1,0 +1,38 @@
+## Interface: 16001
+## Title: Spy - God Mode [Forever]
+## Title-zhCN: Spy 上帝模式 [Forever]
+## Title-zhTW: Spy 上帝模式 [Forever]
+## Notes: PvP enemy detection by GodModeTeam. Client-specific build.
+## Notes-zhCN: GodModeTeam 出品的 PvP 敌对玩家侦测插件。对应客户端专用构建。
+## Notes-zhTW: GodModeTeam 出品的 PvP 敌对玩家侦测插件。对应客户端专用构建。
+## Author: GodModeTeam
+## Version: 1.2.16
+## X-Game-Version: World of Warcraft: Forever 1.60.1 (Camelot)
+## SavedVariables: SpyGodModeDB
+## SavedVariablesPerCharacter: SpyGodModeCharDB
+## AllowLoadGameType: camelot
+
+Clients\Forever\Core\ClientGuard.lua
+Clients\Forever\Core\Locale.lua
+Clients\Forever\Core\Forever.lua
+Clients\Forever\Core\Init.lua
+Clients\Forever\Core\Compat.lua
+Clients\Forever\Core\Defaults.lua
+Clients\Forever\Core\Helpers.lua
+Clients\Forever\Data\SpellData.lua
+Clients\Forever\Engine\Roster.lua
+Clients\Forever\Engine\Scanner.lua
+Clients\Forever\Engine\Combat.lua
+Clients\Forever\Engine\Alerts.lua
+Clients\Forever\Engine\Intelligence.lua
+Clients\Forever\Engine\Comm.lua
+Clients\Forever\Engine\DataTools.lua
+Clients\Forever\Engine\SpyImport.lua
+Clients\Forever\Interface\Skin.lua
+Clients\Forever\Interface\KosDialogs.lua
+Clients\Forever\Interface\Rows.lua
+Clients\Forever\Interface\Statistics.lua
+Clients\Forever\Interface\MainFrame.lua
+Clients\Forever\Interface\AlertFrame.lua
+Clients\Forever\Interface\Options.lua
+Clients\Forever\Core\Commands.lua

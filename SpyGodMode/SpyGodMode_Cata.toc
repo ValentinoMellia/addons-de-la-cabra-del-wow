@@ -1,0 +1,32 @@
+## Interface: 40402
+## Title: Spy - God Mode [Cataclysm]
+## Notes: PvP enemy detection by GodModeTeam. Client-specific build.
+## Author: GodModeTeam
+## Version: 1.2.16
+## SavedVariables: SpyGodModeDB
+## SavedVariablesPerCharacter: SpyGodModeCharDB
+## AllowLoadGameType: cata
+
+Clients\Cataclysm\Core\ClientGuard.lua
+Clients\Cataclysm\Core\Locale.lua
+Clients\Cataclysm\Core\Init.lua
+Clients\Cataclysm\Core\Compat.lua
+Clients\Cataclysm\Core\Defaults.lua
+Clients\Cataclysm\Core\Helpers.lua
+Clients\Cataclysm\Data\SpellData.lua
+Clients\Cataclysm\Engine\Roster.lua
+Clients\Cataclysm\Engine\Scanner.lua
+Clients\Cataclysm\Engine\Combat.lua
+Clients\Cataclysm\Engine\Alerts.lua
+Clients\Cataclysm\Engine\Intelligence.lua
+Clients\Cataclysm\Engine\Comm.lua
+Clients\Cataclysm\Engine\DataTools.lua
+Clients\Cataclysm\Engine\SpyImport.lua
+Clients\Cataclysm\Interface\Skin.lua
+Clients\Cataclysm\Interface\KosDialogs.lua
+Clients\Cataclysm\Interface\Rows.lua
+Clients\Cataclysm\Interface\Statistics.lua
+Clients\Cataclysm\Interface\MainFrame.lua
+Clients\Cataclysm\Interface\AlertFrame.lua
+Clients\Cataclysm\Interface\Options.lua
+Clients\Cataclysm\Core\Commands.lua

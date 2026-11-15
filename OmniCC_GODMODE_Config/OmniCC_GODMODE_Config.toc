@@ -1,0 +1,48 @@
+## Interface: 16001
+## Title: OmniCC GODMODE Config
+## Notes: OmniCC GODMODE configuration menu for WoW Forever (shared stable UI)
+## Author: GodModeTeam; based on OmniCC by Tuller
+## Version: 1.4.8
+## SavedVariables: OmniCC_GODMODE_CompatLastSelection
+## Dependencies: OmniCC_GODMODE
+## LoadOnDemand: 1
+## IconTexture: Interface/Icons/inv_misc_pocketwatch_02
+midnight_config\localization\default.lua
+midnight_config\localization\enUS.lua
+midnight_config\localization\deDE.lua
+midnight_config\localization\esES.lua
+midnight_config\localization\esMX.lua
+midnight_config\localization\frFR.lua
+midnight_config\localization\itIT.lua
+midnight_config\localization\koKR.lua
+midnight_config\localization\ptBR.lua
+midnight_config\localization\ruRU.lua
+midnight_config\localization\zhCN.lua
+midnight_config\localization\zhTW.lua
+midnight_config\localization\menu_enUS.lua
+midnight_config\localization\menu_koKR.lua
+midnight_config\localization\menu_deDE.lua
+midnight_config\localization\menu_esES.lua
+midnight_config\localization\menu_esMX.lua
+midnight_config\localization\menu_frFR.lua
+midnight_config\localization\menu_itIT.lua
+midnight_config\localization\menu_ptBR.lua
+midnight_config\localization\menu_ruRU.lua
+midnight_config\localization\menu_zhCN.lua
+midnight_config\localization\menu_zhTW.lua
+midnight_config\utils.lua
+midnight_config\widgets\row.lua
+midnight_config\widgets\swatch.lua
+midnight_config\widgets\panelHeader.lua
+midnight_config\widgets\checkBox.lua
+midnight_config\widgets\slider.lua
+midnight_config\widgets\dropdown.lua
+midnight_config\widgets\colorPicker.lua
+midnight_config\widgets\checkBoxColorPicker.lua
+midnight_config\widgets\fontSelector.lua
+midnight_config\widgets\colorRow.lua
+midnight_config\settings.lua
+midnight_config\profiles.lua
+midnight_config\themes.lua
+midnight_config\rules.lua
+midnight_config\options.lua

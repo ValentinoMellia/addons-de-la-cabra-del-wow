@@ -1,0 +1,32 @@
+## Interface: 30405
+## Title: Spy - God Mode [WotLK]
+## Notes: PvP enemy detection by GodModeTeam. Client-specific build.
+## Author: GodModeTeam
+## Version: 1.2.16
+## SavedVariables: SpyGodModeDB
+## SavedVariablesPerCharacter: SpyGodModeCharDB
+## AllowLoadGameType: wrath
+
+Clients\WotLK\Core\ClientGuard.lua
+Clients\WotLK\Core\Locale.lua
+Clients\WotLK\Core\Init.lua
+Clients\WotLK\Core\Compat.lua
+Clients\WotLK\Core\Defaults.lua
+Clients\WotLK\Core\Helpers.lua
+Clients\WotLK\Data\SpellData.lua
+Clients\WotLK\Engine\Roster.lua
+Clients\WotLK\Engine\Scanner.lua
+Clients\WotLK\Engine\Combat.lua
+Clients\WotLK\Engine\Alerts.lua
+Clients\WotLK\Engine\Intelligence.lua
+Clients\WotLK\Engine\Comm.lua
+Clients\WotLK\Engine\DataTools.lua
+Clients\WotLK\Engine\SpyImport.lua
+Clients\WotLK\Interface\Skin.lua
+Clients\WotLK\Interface\KosDialogs.lua
+Clients\WotLK\Interface\Rows.lua
+Clients\WotLK\Interface\Statistics.lua
+Clients\WotLK\Interface\MainFrame.lua
+Clients\WotLK\Interface\AlertFrame.lua
+Clients\WotLK\Interface\Options.lua
+Clients\WotLK\Core\Commands.lua

@@ -1,0 +1,32 @@
+## Interface: 38002
+## Title: Spy - God Mode [Titan Reforged]
+## Notes: PvP enemy detection by GodModeTeam. Client-specific build.
+## Author: GodModeTeam
+## Version: 1.2.16
+## SavedVariables: SpyGodModeDB
+## SavedVariablesPerCharacter: SpyGodModeCharDB
+## AllowLoadGameType: wrath
+
+Clients\TitanReforged\Core\ClientGuard.lua
+Clients\TitanReforged\Core\Locale.lua
+Clients\TitanReforged\Core\Init.lua
+Clients\TitanReforged\Core\Compat.lua
+Clients\TitanReforged\Core\Defaults.lua
+Clients\TitanReforged\Core\Helpers.lua
+Clients\TitanReforged\Data\SpellData.lua
+Clients\TitanReforged\Engine\Roster.lua
+Clients\TitanReforged\Engine\Scanner.lua
+Clients\TitanReforged\Engine\Combat.lua
+Clients\TitanReforged\Engine\Alerts.lua
+Clients\TitanReforged\Engine\Intelligence.lua
+Clients\TitanReforged\Engine\Comm.lua
+Clients\TitanReforged\Engine\DataTools.lua
+Clients\TitanReforged\Engine\SpyImport.lua
+Clients\TitanReforged\Interface\Skin.lua
+Clients\TitanReforged\Interface\KosDialogs.lua
+Clients\TitanReforged\Interface\Rows.lua
+Clients\TitanReforged\Interface\Statistics.lua
+Clients\TitanReforged\Interface\MainFrame.lua
+Clients\TitanReforged\Interface\AlertFrame.lua
+Clients\TitanReforged\Interface\Options.lua
+Clients\TitanReforged\Core\Commands.lua

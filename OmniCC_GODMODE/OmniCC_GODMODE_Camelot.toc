@@ -1,0 +1,38 @@
+## Interface: 16001
+## Title: OmniCC GODMODE
+## Notes: Advanced cooldown text and aura controls for WoW Forever
+## Author: GodModeTeam; based on OmniCC by Tuller
+## Version: 1.4.8
+## AllowLoadGameType: camelot
+## SavedVariables: OmniCC_GODMODE_ShowGameMenuButton, OmniCC_GODMODE_MidnightComboDB, OmniCC_GODMODE_ForeverComboDB, OmniCC_GODMODE_ForeverDB, OmniCC_GODMODE_ForeverNameplatesDB, OmniCC_GODMODE_ForeverNPEnabled, OmniCC_GODMODE_ForeverNPScale, OmniCC_GODMODE_ForeverNPQuickSizeLevel, OmniCC_GODMODE_ForeverNPCountdownTextSize, OmniCC_GODMODE_ForeverNPX, OmniCC_GODMODE_ForeverNPY, OmniCC_GODMODE_ForeverNPAnchorShown, OmniCC_GODMODE_ForeverNPQuickPoint, OmniCC_GODMODE_ForeverNPQuickX, OmniCC_GODMODE_ForeverNPQuickY, OmniCC_GODMODE_ForeverNPShowAllDebuffs, OmniCC_GODMODE_ForeverNPTargetOnly, OmniCC_GODMODE_ForeverNPFriendlyHots, OmniCC_GODMODE_ForeverNPFriendlyBuffs, OmniCC_GODMODE_ForeverNPFriendlyDebuffs, OmniCC_GODMODE_ForeverPlayerCCDB, OmniCC_GODMODE_ForeverTargetPortraitDB, OmniCC_GODMODE_ForeverSelfCooldownsDB, OmniCC_GODMODE_ForeverAuraQuickDB, OmniCC_GODMODE_ForeverMinimapDB, OmniCC_GODMODE_ForeverEnemyCDDB, OmniCC_GODMODE_ForeverActionAuraTimersDB, OmniCC_GODMODE_CooldownsOnly
+## SavedVariablesPerCharacter: OmniCC_GODMODE_ForeverNameplatesCharDB
+## IconTexture: Interface/Icons/inv_misc_pocketwatch_02
+## Category: Combat
+godmode_duration_binding.lua
+godmode_combo_points.lua
+godmode_enemy_cooldowns.lua
+forever\engine\embeds.xml
+forever\engine\api.lua
+forever\engine\utils.lua
+forever\engine\rules.lua
+forever\engine\themer.lua
+forever\engine\main.lua
+forever\forever_threatplates_bridge.lua
+forever\forever_betterblizzplates_bridge.lua
+forever\forever_compatibility.lua
+forever\forever_action_aura_timers.lua
+forever\forever_aura_text_controls.lua
+forever\forever_spell_data.lua
+forever\forever_nameplate_auras.lua
+forever\forever_totem_icons.lua
+forever\forever_player_cc_alert.lua
+player_hot_tracker.lua
+forever\forever_self_cooldowns.lua
+forever\forever_player_frame_auras.lua
+forever\forever_target_portrait_effects.lua
+quick_controls_localization.lua
+forever\forever_minimap_quick_menu.lua
+forever\minimap_button.lua
+forever\forever_target_native_auras.lua
+forever\forever_target_aura_timers.lua
+forever\forever_focus_native_auras.lua

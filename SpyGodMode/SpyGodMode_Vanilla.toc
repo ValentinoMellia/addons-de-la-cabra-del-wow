@@ -1,0 +1,32 @@
+## Interface: 11508, 11509
+## Title: Spy - God Mode [Classic]
+## Notes: PvP enemy detection by GodModeTeam. Client-specific build.
+## Author: GodModeTeam
+## Version: 1.2.16
+## SavedVariables: SpyGodModeDB
+## SavedVariablesPerCharacter: SpyGodModeCharDB
+## AllowLoadGameType: vanilla
+
+Clients\Classic\Core\ClientGuard.lua
+Clients\Classic\Core\Locale.lua
+Clients\Classic\Core\Init.lua
+Clients\Classic\Core\Compat.lua
+Clients\Classic\Core\Defaults.lua
+Clients\Classic\Core\Helpers.lua
+Clients\Classic\Data\SpellData.lua
+Clients\Classic\Engine\Roster.lua
+Clients\Classic\Engine\Scanner.lua
+Clients\Classic\Engine\Combat.lua
+Clients\Classic\Engine\Alerts.lua
+Clients\Classic\Engine\Intelligence.lua
+Clients\Classic\Engine\Comm.lua
+Clients\Classic\Engine\DataTools.lua
+Clients\Classic\Engine\SpyImport.lua
+Clients\Classic\Interface\Skin.lua
+Clients\Classic\Interface\KosDialogs.lua
+Clients\Classic\Interface\Rows.lua
+Clients\Classic\Interface\Statistics.lua
+Clients\Classic\Interface\MainFrame.lua
+Clients\Classic\Interface\AlertFrame.lua
+Clients\Classic\Interface\Options.lua
+Clients\Classic\Core\Commands.lua

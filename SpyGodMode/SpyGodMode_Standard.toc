@@ -1,0 +1,32 @@
+## Interface: 120007, 120100, 120105
+## Title: Spy - God Mode [Midnight]
+## Notes: PvP enemy detection by GodModeTeam. Client-specific build.
+## Author: GodModeTeam
+## Version: 1.2.16
+## SavedVariables: SpyGodModeDB
+## SavedVariablesPerCharacter: SpyGodModeCharDB
+## AllowLoadGameType: standard
+
+Clients\Midnight\Core\ClientGuard.lua
+Clients\Midnight\Core\Locale.lua
+Clients\Midnight\Core\Init.lua
+Clients\Midnight\Core\Compat.lua
+Clients\Midnight\Core\Defaults.lua
+Clients\Midnight\Core\Helpers.lua
+Clients\Midnight\Data\SpellData.lua
+Clients\Midnight\Engine\Roster.lua
+Clients\Midnight\Engine\Scanner.lua
+Clients\Midnight\Engine\Combat.lua
+Clients\Midnight\Engine\Alerts.lua
+Clients\Midnight\Engine\Intelligence.lua
+Clients\Midnight\Engine\Comm.lua
+Clients\Midnight\Engine\DataTools.lua
+Clients\Midnight\Engine\SpyImport.lua
+Clients\Midnight\Interface\Skin.lua
+Clients\Midnight\Interface\KosDialogs.lua
+Clients\Midnight\Interface\Rows.lua
+Clients\Midnight\Interface\Statistics.lua
+Clients\Midnight\Interface\MainFrame.lua
+Clients\Midnight\Interface\AlertFrame.lua
+Clients\Midnight\Interface\Options.lua
+Clients\Midnight\Core\Commands.lua
